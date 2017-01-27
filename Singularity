@@ -7,3 +7,9 @@ IncludeCmd: yes
 
 %post
     apt-get update && apt-get -y upgrade
+    apt-get install vim
+    apt-get install git
+ 
+    mkdir -p /share/PI
+    mkdir -p /scratch
+    mkdir -p /local-scratch
